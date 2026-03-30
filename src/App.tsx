@@ -1,9 +1,11 @@
-import React from "react";
+import Hero from "./components/Hero";
+import Nabvar from "./components/Nabvar";
 
 function App() {
   return (
     <>
-      <h1> Hola test test</h1>
+      <Nabvar />
+      <Hero />
     </>
   );
 }
