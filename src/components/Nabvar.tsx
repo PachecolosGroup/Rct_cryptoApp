@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Nabvar = () => {
-  const [click, setClick] = React.useState(false);
+  const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
   return (

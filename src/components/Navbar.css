@@ -6,7 +6,7 @@
   position: sticky;
   top: 0;
   left: 0;
-  z-index: 100;
+  z-index: 10;
 }
 
 .header .container {
@@ -40,22 +40,25 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1240px) {
   .hamburger {
     display: flex;
   }
+  .btn-group {
+    display: none;
+  }
 
   .nav-menu {
-    position: absolute;
+    position: fixed;
     flex-direction: column;
     justify-content: start;
     top: 90px;
     right: -100%;
     width: 50%;
     height: 100vh;
-    transition: ease all 0.4s;
+    transition: 0.4s;
     z-index: 2;
-    background-color: #fff;
+    background: #fff;
     border-left: 1px solid #eee;
   }
 
