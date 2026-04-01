@@ -1,3 +1,4 @@
+import Featured from "./components/Featured";
 import Hero from "./components/Hero";
 import Nabvar from "./components/Nabvar";
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <Nabvar />
       <Hero />
+      <Featured />
     </>
   );
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Navbar.css";
-import { FaBars, FaLastfm, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 
-function Nabvar() {
+const Nabvar = () => {
   const [click, setClick] = React.useState(false);
   const handleClick = () => setClick(!click);
 
@@ -39,6 +39,6 @@ function Nabvar() {
       </div>
     </div>
   );
-}
+};
 
 export default Nabvar;
